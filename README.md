@@ -1,6 +1,6 @@
 # simple_timeline
 
-**`simple_timeline` is a Timeline builder For [Flutter](https://flutter.dev/) Application, added animation at the first display.**
+**`simple_timeline` is a Timeline builder For [Flutter](https://flutter.dev/) Application.**
 
 * [中文版](https://github.com/vincnttt/SimpleTimeline/blob/main/README_zh.md)
 
