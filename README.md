@@ -2,7 +2,7 @@
 
 **`simple_timeline` is a Timeline builder For [Flutter](https://flutter.dev/) Application, added animation at the first display.**
 
-* [中文版](https://github.com/vincnttt/TangDynasty-APP/blob/master/README_zh.md)
+* [中文版](https://github.com/vincnttt/SimpleTimeline/blob/main/README_zh.md)
 
 ## Demo
 
@@ -59,7 +59,10 @@ class _MainPageState extends State<MainPage> {
 ```
 ## Example
 
-Check it on [`example/`](https://github.com/vincnttt/SimpleTimeline/tree/main/example) folder :file-folder:
+Check it on [`example/`](https://github.com/vincnttt/SimpleTimeline/tree/main/example) folder :file_folder:
+
+## License
+
 
 ### More Details
 
