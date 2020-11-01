@@ -1,14 +1,66 @@
 # simple_timeline
 
-Simple Timeline for Flutter Application
+**`simple_timeline` is a Timeline builder For [Flutter](https://flutter.dev/) Application, added animation at the first display.**
 
-## Getting Started
+* [中文版](https://github.com/vincnttt/TangDynasty-APP/blob/master/README_zh.md)
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Demo
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![display](https://github.com/vincnttt/SimpleTimeline/blob/main/screenshots/display.gif)
+
+### Styling
+
+| Light | Dark |
+| :---: | :---: |
+| ![light-mode](https://github.com/vincnttt/SimpleTimeline/blob/main/screenshots/light.png) |  ![dark-mode](https://github.com/vincnttt/SimpleTimeline/blob/main/screenshots/dark.png) |
+
+## Usage
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:simple_timeline/simple_timeline.dart';
+
+class MainPage extends StatefulWidget {
+  @override
+  _MainPageState createState() => _MainPageState();
+}
+
+class _MainPageState extends State<MainPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Simple Timeline"),
+      ),
+      body: SimpleTimeline(
+        children: <Widget>[
+          _timelineContent(context, "Hi There", Icons.near_me),
+          _timelineContent(context, "Morning", Icons.wb_sunny),
+          _timelineContent(context, "Nite", Icons.brightness_3),
+        ],
+      ),
+    );
+  }
+
+  Widget _timelineContent(context, String title, IconData icon) {
+    return Card(
+      elevation: 0.0,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12.0),
+      ),
+      child: ListTile(
+        title: Text(title),
+        leading: Icon(icon),
+        trailing: Icon(Icons.arrow_forward_ios),
+      ),
+    );
+  }
+}
+```
+## Example
+
+Check it on [`example/`](https://github.com/vincnttt/SimpleTimeline/tree/main/example) folder :file-folder:
+
+### More Details
+
+This project was tested on Nexus 4 API 29 (Android 10.0)
