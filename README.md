@@ -62,7 +62,7 @@ class _MainPageState extends State<MainPage> {
 Check it on [`example/`](https://github.com/vincnttt/SimpleTimeline/tree/main/example) folder :file_folder:
 
 ## License
-
+[LICENSE](https://github.com/vincnttt/SimpleTimeline/blob/main/LICENSE)
 
 ### More Details
 
