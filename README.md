@@ -66,4 +66,5 @@ Check it on [`example/`](https://github.com/vincnttt/SimpleTimeline/tree/main/ex
 
 ### More Details
 
+If you found that this project really helpful for you, click the star above :star2:
 This project was tested on Nexus 4 API 29 (Android 10.0)
