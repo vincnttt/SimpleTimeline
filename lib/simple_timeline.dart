@@ -1,3 +1,9 @@
+/*
+  Author: Vincent Lin
+  Created on: 2020.10.31
+  Github: https://github.com/vincnttt
+*/
+
 library simple_timeline;
 
 import 'package:flutter/material.dart';
